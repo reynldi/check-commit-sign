@@ -19,4 +19,4 @@ contrib-check:
     - ./.gitlab/ci/scripts/check_commit.sh
 ```
 
-The job will run only when we open Merge Request
+The job will run only when we open Merge Request, Pipeline will fail if the commit is not signed :)
